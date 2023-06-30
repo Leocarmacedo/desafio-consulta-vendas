@@ -7,9 +7,9 @@ import com.devsuperior.dsmeta.entities.Sale;
 public class ReportDTO {
 
 	private Long id;
-	private String sellerName;
-	private Double amount;
 	private LocalDate date;
+	private Double amount;
+	private String sellerName;
 
 	public ReportDTO() {
 	}
